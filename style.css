@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #07144a;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.card{
+     background-color: #293770;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.card img{
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.card h4{
+    padding: 0.6rem 0 0.6rem 0;
+    color: #fff;
+}
+
+.card p{
+    color: #4f68cd;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.second-card{
+    display: flex;
+    border-bottom: 1px solid #8BACD9;
+    padding-bottom: 1rem;
+}
+
+.ethereum {
+    width: 8px;
+    margin-right:4px;
+}
+
+.card .eth{
+    color: #00FFF8;
+    font-size: 0.9rem;
+}
+
+.clock {
+    width: 16px;
+    margin-left: auto;
+}
+
+.left{
+    margin-left: 4px;
+    color: #8BACD9;
+}
+
+.creation{
+    width: 2rem;
+    height: 2rem;
+    background-image: url(image-avatar.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 1rem;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.card-3{
+    width: 17%;
+    float: left;
+}
+
+.card-4{
+    width:83% ;
+    float: left;
+    padding-left: 5px;
+}
+
+.card-4 .title{
+    margin-top: 1.5rem;
+    display: inline-block;
+    color: #8BACD9;
+}
+.card-4 span{
+    color: #fff;
+}
+
+
